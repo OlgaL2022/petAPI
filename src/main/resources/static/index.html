@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat App API</title>
+</head>
+<body>
+<h1>Welcome to Pet app api</h1>
+<p>This is a rest API, with following functionality</p>
+<ul>
+  <li>
+    <h3>
+      <i>POST</i>
+      <span>pet</span>
+      <small>
+        <i>apiUrl</i>/messages/
+      </small>
+    </h3>
+    <div>
+      <b>Request Body</b>
+      <br/>
+      <pre>
+           {
+        "name": "Pet name",
+        "age": "Pet age",
+        "type": "Pet type",
+        "ownerName": "Pet owner"
+    }
+
+                </pre>
+    </div>
+    <div>
+      <b>Response</b> <br/>
+      <b>Code: 201</b> <br/>
+      <b>Response Body:</b>
+      <pre>
+
+    {   "id": "123123123",
+        "name": "Kitty",
+        "age": "3",
+        "type": "Cat",
+        "ownerName": "Mary"
+    }
+                </pre>
+    </div>
+  </li>
+</ul>
+</body>
+</html>
